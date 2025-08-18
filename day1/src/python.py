@@ -3,3 +3,7 @@ month, day, time, host,*message_port =log_tokens
 ip=log_tokens[9]
 #print(f"[PARSED] Data:{month} {day} {time} host: {host} {log_tokens[9]}")
 #print(f"[MESSAGE]: {''.join(message_port)}")
+
+my_num =[]
+d =[x for x in range(21) if x%2==0]
+print(d)
